@@ -123,50 +123,55 @@ footer{
 .portfolio-pics img{
     height: 200px;
     width: 267px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
-.pic1{
-    position:relative;
-    padding-top: 0px;
-    padding-left: 30px;
-    padding-right:40px;
+.items{
+    display: inline;
+    position: relative;
 
-}
-
-
-.pic2{
-    padding-bottom: 600px;
-    margin-right: 345px;
-    float: right;
 }
 
 
-.pic3{
-    padding-left: 30px;
-    padding-top: 40px;
+.portfolio-line{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:#dfdfdf;3
 
 }
 
-.pic4{
-    padding: 20px;
+.image-heading{
+
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 35px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    left: 30px;
+    width: 267px;
+    text-align: center;
+
 }
 
-.pic5{
-    padding: 20px;
-}
+
 
 /* Contact section */
 input[type=text]{
 
     width: 850px;
+    margin-top: 5px;
     margin-left: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     padding: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color:  #777777;
 }
 
-h4{
+label{
     margin-left: 50px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color:  #777777;
@@ -176,17 +181,25 @@ h4{
 
 #message{
     margin-bottom: 20px;
-    padding-bottom: 200px;  
+    padding-bottom: 100px;  
 }
 
-input[type=button]{
-    width: 100px;
+.contact-button{
     background-color: #4aaaa5;
     color: white;
-    padding: 16px 30px;
+    padding: 10px 20px;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
     margin-left: 50px;
     margin-bottom: 30px;
+    border-radius: 2px;
+    border: none;
     
     }
 
+.contact-line{
+
+margin-top: 20px;
+margin-bottom: 10px;
+background-color:#dfdfdf;
+}
